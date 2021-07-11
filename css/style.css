@@ -116,6 +116,8 @@ nav a{
 .profile-posts ul{
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
+
 }
 
 .profile-posts ul li{
@@ -157,6 +159,7 @@ nav a{
 		padding: 0;
 	}
 	.highlighted-stories ul{
-		justify-content:center
+		justify-content:center;
+		transform: translateX(-10%);
 	}
 }
